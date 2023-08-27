@@ -57,10 +57,8 @@ OpacityRegionsSeparate: Whether the opacity of cells is determined by comparing 
 
 
 Other notes: 
+- Bug: unless in Jupyter "Graphing tick ..." message repeats for some reason, due to the animation function.
 - There is a tiny chance for an "insignificant error" which is just the map and regions arrays disagreeing on what state one individual is in.
-- In Spyder the "Graphing tick ..." message repeats for some reason, due to the animation function. It even happens when the animation function is replaced, so I'm not sure why this happens (I coded in Jupyter), so sorry about that.
 - It's recommended to set OpacityRegionsSeparate to True for AnimationExample.
-- Animations for Melbourne show little change due to a far lower R value and restrictions.
-- I've included some sample outputs, including the AnimationExample animation. I also included "Melbourne Grid Layout.xlsx" to show what each region represents in the animation (the layout has no other effect).
 - The simulated Reff is different from the input due to the distributions being approximations. 
 - The default immunity for Faroe Islands is 70%. If one wishes to changes this, the variable controlling this is "ImmunePercentage".
