@@ -1,7 +1,9 @@
 # Epicell - A toy stochastic cellular automaton for modelling epidemics.
 
 (2021 project)
+
 ---
+
 This algorithm can simulate multiple scenarios, animate these scenarios and plot multiple variables. It does not in its current state both plot and display an animation, as it is rare for one to need to see both. 
 
 At the start of the program (before the scenarios' variables are set) please modify variables as one wishes. Below is a description of each variable. See the bottom for importantish notes.
